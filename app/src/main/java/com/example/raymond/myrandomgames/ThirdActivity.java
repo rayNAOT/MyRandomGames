@@ -293,9 +293,9 @@ public class ThirdActivity extends AppCompatActivity {
                         tv_playerOwins.getText().toString(),
                         tv_draw.getText().toString());
                 if (isInserted) {
-                    Toast.makeText(ThirdActivity.this, "Data Inserted", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ThirdActivity.this, "Data Inserted", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(ThirdActivity.this, "Data not Inserted", Toast.LENGTH_LONG).show();
+                    Toast.makeText(ThirdActivity.this, "Data not Inserted", Toast.LENGTH_SHORT).show();
                 }
             }
         });
